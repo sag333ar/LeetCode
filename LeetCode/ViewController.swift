@@ -22,7 +22,6 @@ class Solution {
 			if left != right {
 				return false
 			}
-			// 121 to 21
 			x = x % div
 			x = x / 10
 			div = div / 100
